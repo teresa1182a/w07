@@ -99,6 +99,16 @@ aside{
       'footer ';
 
   }
-  
+
+@media only screen and (max-width: 320px) {
+  .container {
+    grid-template-columns: 3.5fr 6.5fr ;
+    grid-template-rows: 1fr 8.5fr 0.5fr;
+    grid-template-areas:
+      'logo'
+      'header'
+      'article aside'
+      'footer ';
+
   
 }
