@@ -101,7 +101,8 @@ aside{
   .im img {
     width: 3vh;
     height: auto;
-    margin: auto;}
+    margin: auto;
+  }
 }
 @media screen and (max-width:767px){
   .container {
@@ -112,8 +113,6 @@ aside{
       'header'
       'article aside'
       'footer ';
-
   } 
   
-  } 
-}
+} 
