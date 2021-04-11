@@ -100,8 +100,8 @@ aside{
   }
   .im img {
     width: 3vh;
-    height: 2vh;
-    margin: 0px;
+    height: auto;
+    margin: 1px;
   }
 }
 @media screen and (max-width:767px){
