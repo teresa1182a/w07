@@ -87,7 +87,7 @@ aside{
   display:flex ;
   grid-area: footer;
 }
-@media screen and (min-width:1025px){
+@media screen and (max-width:550px){
   .container {
     grid-template-columns: 3.5fr 6.5fr ;
     grid-template-rows: 1fr 8.5fr 0.5fr;
@@ -98,7 +98,8 @@ aside{
       'footer ';
    
   }
-  
+  .footer{
+    background-color: aqua;
 }
 @media screen and (max-width:767px){
   .container {
@@ -111,7 +112,6 @@ aside{
       'footer ';
 
   } 
-  .footer{
-    background-color: aqua;
+  
   } 
 }
