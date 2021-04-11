@@ -4,10 +4,9 @@ body {
 
 .container {
   display: grid;
-  height: 100vh;
-  justify-content:center;
+  height: 80vh;
   grid-template-columns: 3fr 7fr ;
-  grid-template-rows: 2fr 7.5fr 0.5fr;
+  grid-template-rows: 2fr 7fr 0.5fr;
   grid-template-areas:
     'logo header'
     'article aside'
@@ -31,26 +30,28 @@ header {
 }
 
 .article{
+  grid-area: article;
   background: #eedfcd ;
   border: #97aed6 solid 0.3rem;
   text-align: center;
 } 
 
 .na {
-  height: 85vh;
+  height: 75vh;
   background:#e0cdcf;
   margin: 15px;
   padding: 5px;
 }
 
 aside{
+  grid-area: aside;
   background: rgb(255, 207, 207) ;
   border: #97aed6 solid 0.3rem;
   text-align:center;
 }
 
 .se {
-  height: 85vh;
+  height: 75vh;
   background:#fcdcdd;
   margin:15px;
   text-align: left;
@@ -58,7 +59,7 @@ aside{
 }
 
 .di {
-  height: 60vh;
+  height: 55vh;
   background:#f0e0cc;
   margin-right:3rem;
   margin-left: 3rem;
