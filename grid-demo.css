@@ -109,7 +109,9 @@ aside{
       'header'
       'article aside'
       'footer ';
-  
+  .footer {
+    background: red;;
+  }
 
   }  
 }
