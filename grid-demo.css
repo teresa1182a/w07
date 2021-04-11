@@ -78,7 +78,7 @@ aside{
 }
 
 .im img {
-  width: 10vh;
+  width: 5vh;
   height: auto;
   margin: auto;
 }
@@ -109,9 +109,6 @@ aside{
       'header'
       'article aside'
       'footer ';
-  .footer {
-    background: red;;
-  }
 
   }  
 }
